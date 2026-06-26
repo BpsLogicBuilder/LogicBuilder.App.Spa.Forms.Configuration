@@ -16,7 +16,7 @@
 		<PackageReleaseNotes>First release.</PackageReleaseNotes>
 		<PackageTags>form configuration</PackageTags>
 		<Copyright>Copyright © BPS 2026</Copyright>
-		<RepositoryUrl>https://github.com/BpsLogicBuilder/LogicBuilder.App.Spa.Forms.Parameters</RepositoryUrl>
+		<RepositoryUrl>https://github.com/BpsLogicBuilder/LogicBuilder.App.Spa.Forms.Configuration</RepositoryUrl>
 		<PackageLicenseExpression>MIT</PackageLicenseExpression>
 		<PackageProjectUrl>https://github.com/BpsLogicBuilder/LogicBuilder</PackageProjectUrl>
 		<PackageReadmeFile>README.md</PackageReadmeFile>
@@ -29,6 +29,11 @@
 		<EmbedAllSources>true</EmbedAllSources>
 		<ContinuousIntegrationBuild Condition="'$(GITHUB_ACTIONS)' == 'true'">true</ContinuousIntegrationBuild>
   </PropertyGroup>
+
+	<ItemGroup>
+		<None Include="..\README.md" Pack="true" PackagePath="\" />
+		<None Include="..\icon.png" Pack="true" PackagePath="\" Visible="False" />
+	</ItemGroup>
 
 	<ItemGroup>
 		<PackageReference Include="LogicBuilder.Structures" Version="8.0.2" />
