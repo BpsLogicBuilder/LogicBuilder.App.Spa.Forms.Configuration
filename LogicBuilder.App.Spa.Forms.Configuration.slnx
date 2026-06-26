@@ -1,3 +1,10 @@
 <Solution>
+  <Folder Name="/Solution Items/">
+    <File Path=".github/workflows/check-for-ab-number.yml" />
+    <File Path=".github/workflows/ci.yml" />
+    <File Path=".github/workflows/release.yml" />
+    <File Path="CHANGELOG.md" />
+  </Folder>
+  <Project Path="LogicBuilder.App.Spa.Forms.Configuration.Tests/LogicBuilder.App.Spa.Forms.Configuration.Tests.csproj" Id="6d57e5e8-6dce-4c67-940f-e4fb6f660d0c" />
   <Project Path="LogicBuilder.App.Spa.Forms.Configuration/LogicBuilder.App.Spa.Forms.Configuration.csproj" />
 </Solution>
