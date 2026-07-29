@@ -4,6 +4,7 @@
 [![CodeQL](https://github.com/BpsLogicBuilder/LogicBuilder.App.Spa.Forms.Configuration/actions/workflows/github-code-scanning/codeql/badge.svg)](https://github.com/BpsLogicBuilder/LogicBuilder.App.Spa.Forms.Configuration/actions/workflows/github-code-scanning/codeql)
 [![codecov](https://codecov.io/gh/BpsLogicBuilder/LogicBuilder.App.Spa.Forms.Configuration/graph/badge.svg?token=WK5MFG350U)](https://codecov.io/gh/BpsLogicBuilder/LogicBuilder.App.Spa.Forms.Configuration)
 [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=BpsLogicBuilder_LogicBuilder.App.Spa.Forms.Configuration&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=BpsLogicBuilder_LogicBuilder.App.Spa.Forms.Configuration)
+[![NuGet](https://img.shields.io/nuget/v/LogicBuilder.App.Spa.Forms.Configuration.svg)](https://www.nuget.org/packages/LogicBuilder.App.Spa.Forms.Configuration)
 
 A .NET Standard 2.0 library that provides serializable descriptor classes for defining dynamic form configurations in Single Page Applications (SPAs). This library enables declarative form definitions that specify layout, controls, validation rules, conditional logic, and visibility behavior.
 
