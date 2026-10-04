@@ -1,3 +1,4 @@
+* 2026-10-04 - AB#231: Use the exact commit that triggered the PR for package build.
 * 2026-10-04 - AB#231: Add Title parameter to ChatFormSettings.
 * 2026-09-30 - AB#231: Package release notes.
 * 2026-09-30 - AB#231: Chat form and SignalR hub descriptors.
