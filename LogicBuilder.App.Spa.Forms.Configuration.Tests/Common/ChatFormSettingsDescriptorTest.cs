@@ -10,6 +10,7 @@ namespace LogicBuilder.App.Spa.Forms.Configuration.Tests.Common
         {
             // Arrange
             var descriptor = new ChatFormSettingsDescriptor(
+                "Live Chat",
                 "agentConfig",
                 600,
                 400,
@@ -29,6 +30,7 @@ namespace LogicBuilder.App.Spa.Forms.Configuration.Tests.Common
 
             // Assert
             Assert.NotNull(deserializedDescriptor);
+            Assert.Equal(descriptor.Title, deserializedDescriptor.Title);
             Assert.Equal(descriptor.AgentConfigurationIdentifier, deserializedDescriptor.AgentConfigurationIdentifier);
             Assert.Equal(descriptor.ChatHeight, deserializedDescriptor.ChatHeight);
             Assert.Equal(descriptor.ChatWidth, deserializedDescriptor.ChatWidth);

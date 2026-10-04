@@ -1,3 +1,4 @@
+* 2026-10-04 - AB#231: Add Title parameter to ChatFormSettings.
 * 2026-09-30 - AB#231: Package release notes.
 * 2026-09-30 - AB#231: Chat form and SignalR hub descriptors.
 * 2026-07-29 - AB#205: Making NuGet one of the release feeds.
