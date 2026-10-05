@@ -34,7 +34,7 @@
 	</ItemGroup>
 
 	<ItemGroup>
-		<PackageReference Include="LogicBuilder.Structures" Version="8.0.3" />
+		<PackageReference Include="LogicBuilder.Structures" Version="8.1.0" />
 		<PackageReference Include="Microsoft.SourceLink.GitHub" Version="10.0.401" PrivateAssets="All" />
 		<PackageReference Include="MinVer" Version="8.0.0">
 			<PrivateAssets>all</PrivateAssets>
